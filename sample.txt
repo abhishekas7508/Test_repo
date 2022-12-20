@@ -15,6 +15,8 @@ git reset commitID
     git remote add origin "github repo url"
 #commit the changes in the remote repository
     git push origin master
+    #force push into the remote repo of feature branch
+        git push origin feature -f 
 git pull origin master
 
 #Forking a repository (open source project)
