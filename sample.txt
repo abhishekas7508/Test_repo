@@ -1,1 +1,28 @@
 My name is Abhishek.
+
+#to see the history of commits
+    git log 
+
+#to make current directory a git repository
+    git init
+git status
+git add .
+git commit -m "commit message"
+git reset commitID
+
+
+#to connect remote repository with the local repository
+    git remote add origin "github repo url"
+#commit the changes in the remote repository
+    git push origin master
+git pull origin master
+
+#Forking a repository (open source project)
+    by forking someone's repository into your github account,
+    you can work on that community project and then make a 
+    pull request (when you have added a new feature successfully), 
+    without hindering with the already working project. 
+
+    url for repo on your github account is called "orgin url"
+    url for repo on account from where you have forked is called "upstream url"
+
